@@ -1,0 +1,52 @@
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td:first-child, th:first-child {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+
+button.backButton {
+    background-color: #007bff; /* Синий фон */
+    color: white; /* Белый текст */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Скругленные углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель мыши в виде руки */
+    transition: background-color 0.3s, transform 0.3s; /* Плавные переходы */
+}
+
+button.backButton:hover {
+    background-color: #0056b3; /* Темно-синий фон при наведении */
+    transform: translateY(-2px); /* Легкое поднятие кнопки */
+}
+
+button.backButton:focus {
+    outline: none; /* Убирает обводку при фокусе */
+}
+
+button.backButton:active {
+    transform: translateY(1px); /* Кнопка немного опускается при нажатии */
+}
